@@ -1,0 +1,14 @@
+{
+    "timestamp": "2025-10-07T21:04:54.616559",
+    "is_choppy": false,
+    "market_condition": "Trending/Volatile",
+    "avg_atr_points": 400.11,
+    "num_dojis": 0,
+    "price_range_points": 1361.0,
+    "thresholds": {
+        "atr": 200,
+        "dojis": 3,
+        "range": 500,
+        "doji_body": 50
+    }
+}

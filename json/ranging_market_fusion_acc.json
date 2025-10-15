@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-10-07 21:06:53",
+    "symbols": [
+        {
+            "pair": "XAUUSD",
+            "market_status": "Trending",
+            "midpoint": 3977.585,
+            "is_trending": true,
+            "candle_time": "2025-10-07 21:06:00",
+            "is_marabozu": true,
+            "candle_type": "Bullish"
+        },
+        {
+            "pair": "XAUEUR",
+            "market_status": "Ranging",
+            "midpoint": 3409.49,
+            "is_trending": false,
+            "candle_time": "2025-10-07 21:06:00",
+            "is_marabozu": true,
+            "candle_type": "Bullish"
+        }
+    ]
+}

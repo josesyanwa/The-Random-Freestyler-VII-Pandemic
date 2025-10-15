@@ -1,0 +1,12 @@
+{
+    "pair": "XAUUSD",
+    "start_date": "2025-10-12",
+    "end_date": "2025-10-19",
+    "schedule": {
+        "2025-10-13": "Bank Holiday",
+        "2025-10-14": "Trading Day",
+        "2025-10-15": "Trading Day",
+        "2025-10-16": "Trading Day",
+        "2025-10-17": "Trading Day"
+    }
+}

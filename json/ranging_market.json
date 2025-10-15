@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-09-23 09:59:54",
+    "symbols": [
+        {
+            "pair": "XAUUSD",
+            "market_status": "Ranging",
+            "midpoint": 3754.0,
+            "is_trending": false,
+            "candle_time": "2025-09-23 09:59:00",
+            "is_marabozu": false,
+            "candle_type": "Bearish"
+        },
+        {
+            "pair": "XAUEUR",
+            "market_status": "Ranging",
+            "midpoint": 3182.48,
+            "is_trending": false,
+            "candle_time": "2025-09-23 09:59:00",
+            "is_marabozu": false,
+            "candle_type": "Bearish"
+        }
+    ]
+}
