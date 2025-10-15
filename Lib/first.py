@@ -198,22 +198,6 @@ def load_choppy_market_data(json_path="../json/choppy_market_detection.json"):
         print(f"Warning: Could not load {json_path}, assuming choppy market for safety.")
         return "Choppy"
 
-# Function to check trade duration from JSON
-def check_trade_duration():
-    file_path = Path(os.getenv('FILE_PATH2'))
-    try:
-        json_text = file_path.read_text(encoding='utf-16')  # Read as UTF-16 encoded text
-        data = json.loads(json_text)
-        trade_duration_seconds = data.get('trade_duration_seconds', 0)
-        if trade_duration_seconds > 1560:  # 26 minutes = 1560 seconds
-            print("market too slow, paused trading")
-            logging.info("market too slow, paused trading")
-            return False
-        return True
-    except (FileNotFoundError, json.JSONDecodeError, Exception):
-        # If any error, proceed with trading (assume duration is okay)
-        return True
-
 # Run trading logic
 def run_trading_script():
     # Define timezone
@@ -255,10 +239,6 @@ def run_trading_script():
         print(message)
         logging.info(message)
         return  # Skip trading logic if market is choppy
-
-    # Check trade duration
-    if not check_trade_duration():
-        return  # Skip trading logic if duration > 20 mins
 
     # Log current P/L status
     message = f"Daily P/L: ${daily_pl:.2f}"
