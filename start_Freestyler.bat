@@ -15,5 +15,5 @@ start "" cmd /k "python fusion_acc.py"
 cd /d "C:\Users\Administrator\Desktop\FreeStyler-VI-Pandemic\Lib\choppy_market"
 start "" cmd /k "python choppy_market.py"
 
-cd /d "C:\Users\Administrator\Desktop\FreeStyler-VI-Pandemic\Lib\random_trade"
-start "" cmd /k "python random_trade.py"
+cd /d "C:\Users\Administrator\Desktop\FreeStyler-VI-Pandemic\Lib\trail_sl"
+start "" cmd /k "python atr_trail.py"
